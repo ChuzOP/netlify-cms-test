@@ -20,3 +20,14 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+    - label: "Reseñas"
+      name: "reseñas"
+      file: "content/reseñas.md"
+      fields: 
+        - { label: "Titulo", name: "titulo", widget: "string" }
+        - label: "Reseñas"
+          name: "reseñas"
+          widget: list
+          fields: 
+            - { label: "Descripción", name: "descripcion", widget: "text" }
+            - { label: "Autor", name: "autor", widget: "string" }
