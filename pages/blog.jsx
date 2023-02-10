@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import { attributes, react as ReseñasContent } from "../content/reseñas.md";
 
-export const Blog = () => {
+const Blog = () => {
   const { titulo, reseñas } = attributes;
   return (
     <>
@@ -23,3 +23,5 @@ export const Blog = () => {
     </>
   );
 };
+
+export default Blog;
